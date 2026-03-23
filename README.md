@@ -36,19 +36,6 @@ The application runs entirely in the browser with no server required.
 ![Main Screen](Screenshots/Main-Screen.PNG)
 *Main interface of the Mood Tracker application.*
 
-## Screenshots
-
-### Main Interface
-![Main Interface](screenshots/main-interface.png)
-*Screenshot of the main mood tracker interface with mood buttons and activity input.*
-
-### History View
-![History View](screenshots/history-view.png)
-*Screenshot showing the history section with filtered entries and stats.*
-
-### Filtered Results
-![Filtered Results](screenshots/filtered-results.png)
-*Screenshot of entries filtered by a specific mood.*
 
 ## Self-Assessment
 
@@ -76,6 +63,8 @@ The application runs entirely in the browser with no server required.
 
 ## Sample Learning Reflection
 
-Working on this Mood Tracker project helped me understand the fundamentals of JavaScript DOM manipulation and event handling. I learned how to dynamically create and update HTML elements based on user interactions, and the importance of separating concerns between HTML, CSS, and JavaScript. The project also reinforced the value of local storage for simple data persistence in web applications. Overall, it was a great exercise in building a complete, functional web app from scratch.
+Working on this Mood Tracker project helped me understand the fundamentals of JavaScript DOM manipulation and event handling. I learned how to dynamically create and update HTML elements based on user interactions, and the importance of separating concerns between HTML, CSS, and JavaScript. The project also reinforced the value of local storage for simple data persistence in web applications. from scratch.
 
-Beyond the technical skills, the teacher's approach in Workshop-1 provided excellent feedback that was instrumental in developing my coding skills. The constructive critiques and guidance helped me identify areas for improvement and build confidence in my abilities. Additionally, learning from other students created a supportive community atmosphere where we could share ideas, troubleshoot issues together, and celebrate each other's progress. This collaborative environment made the learning experience more engaging and effective, turning what could have been isolated study into a shared journey of growth.
+Beyond the technical skills, the teacher's approach in Workshops provided excellent feedback that was instrumental in developing my coding skills. The constructive critiques and guidance helped me identify areas for improvement and build confidence in my abilities. Additionally, learning from other students created a supportive community atmosphere where we could share ideas, troubleshoot issues together, and celebrate each other's progress. This collaborative environment made the learning experience more engaging and effective, turning what could have been isolated study into a shared journey of growth.
+
+Overall, it was a great project exercise in building a complete, functional web app. Thank you teacher-Paresh and classmates (name if you wish to name friends, it is a lifetime portfolio for you).
