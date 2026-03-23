@@ -1,0 +1,51 @@
+<!DOCTYPE html> <!-- Tell the browser: this is HTML5 -->
+<html lang="en"> <!-- Set page language to English -->
+<head> <!-- Head: invisible settings + links -->
+  <meta charset="UTF-8"> <!-- Support emojis + global characters -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mobile friendly scaling -->
+  <title>Mood and Activity Tracker</title> <!-- Browser tab title -->
+  <link rel="stylesheet" href="style.css"> <!-- Load CSS file -->
+</head> <!-- End head -->
+<body> <!-- Everything visible goes inside body -->
+
+  <main class="container"> <!-- Main “card” container -->
+    <h1>Mood and Activity Tracker</h1> <!-- Main heading -->
+
+    <section id="entry-form"> <!-- Area where user creates a new entry -->
+      <h2>Today's Entry</h2> <!-- Section title -->
+
+      <div id="moodPicker" class="mood-picker" aria-label="Choose a mood"> <!-- Mood buttons container (JS listens here) -->
+        <button type="button" data-mood="happy" aria-label="Happy">😊</button> <!-- Mood: happy -->
+        <button type="button" data-mood="good" aria-label="Good">🙂</button> <!-- Mood: good -->
+        <button type="button" data-mood="neutral" aria-label="Neutral">😐</button> <!-- Mood: neutral -->
+        <button type="button" data-mood="sad" aria-label="Sad">😔</button> <!-- Mood: sad -->
+        <button type="button" data-mood="stressed" aria-label="Stressed">😓</button> <!-- Mood: stressed -->
+      </div> <!-- End moodPicker -->
+
+      <label for="activities">Activities (1-3 lines):</label> <!-- Label helps accessibility + clarity -->
+      <textarea id="activities" placeholder="Enter 1-3 activities (one per line)" rows="4"></textarea> <!-- User types activities here -->
+
+      <button id="save-btn" type="button">Save Entry</button> <!-- Click saves entry (JS handles this) -->
+    </section> <!-- End entry-form -->
+
+    <section id="history"> <!-- Area where we show saved entries -->
+      <h2>History</h2> <!-- History title -->
+
+      <div id="filter" aria-label="Filter entries by mood"> <!-- Filter row (JS listens here) -->
+        <button type="button" data-filter="">All</button> <!-- Show all entries -->
+        <button type="button" data-filter="happy">Happy 😊</button> <!-- Filter happy -->
+        <button type="button" data-filter="good">Good 🙂</button> <!-- Filter good -->
+        <button type="button" data-filter="neutral">Neutral 😐</button> <!-- Filter neutral -->
+        <button type="button" data-filter="sad">Sad 😔</button> <!-- Filter sad -->
+        <button type="button" data-filter="stressed">Stressed 😓</button> <!-- Filter stressed -->
+      </div> <!-- End filter -->
+
+      <div id="stats"></div> <!-- JS writes statistics here -->
+      <div id="entries-list"></div> <!-- JS writes entry list here -->
+    </section> <!-- End history -->
+
+  </main> <!-- End container -->
+
+  <script src="script.js"></script> <!-- Load JS after HTML so elements exist -->
+</body> <!-- End body -->
+</html> <!-- End document -->
