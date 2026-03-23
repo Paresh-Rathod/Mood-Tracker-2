@@ -32,6 +32,10 @@ Mood-Tracker-2 is a simple web-based application for tracking daily moods and ac
 
 The application runs entirely in the browser with no server required.
 
+### Screenshot
+![Main Screen](Screenshots/Main-Screen.PNG)
+*Main interface of the Mood Tracker application.*
+
 ## Screenshots
 
 ### Main Interface
@@ -69,3 +73,7 @@ The application runs entirely in the browser with no server required.
 - **Self-Score**: 12/15 - Core functionality tested, could benefit from more edge case testing.
 
 **Total Score**: 97/100
+
+## Sample Learning Reflection
+
+Working on this Mood Tracker project helped me understand the fundamentals of JavaScript DOM manipulation and event handling. I learned how to dynamically create and update HTML elements based on user interactions, and the importance of separating concerns between HTML, CSS, and JavaScript. The project also reinforced the value of local storage for simple data persistence in web applications. Overall, it was a great exercise in building a complete, functional web app from scratch.
